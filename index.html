@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allan Cheboiwo | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="grid-bg"></div>
+    
+    <nav class="nav">
+        <div class="nav-brand">
+            <span class="prompt">~</span> allan<span class="cursor-blink">_</span>
+        </div>
+        <div class="nav-links">
+            <a href="#about">about</a>
+            <a href="#experience">experience</a>
+            <a href="#projects">projects</a>
+            <a href="#blog">blog</a>
+            <a href="#contact">contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <p class="hero-tag">// software engineer</p>
+                <h1 class="hero-title">
+                    <span class="line">Allan</span>
+                    <span class="line">Cheboiwo</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Recent CS graduate passionate about <em>backend systems</em> and <em>low-level concepts</em>. 
+                    Always building, always learning.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">view projects</a>
+                    <a href="#contact" class="btn btn-secondary">get in touch</a>
+                </div>
+            </div>
+            <div class="hero-terminal">
+                <div class="terminal-header">
+                    <span class="terminal-dot red"></span>
+                    <span class="terminal-dot yellow"></span>
+                    <span class="terminal-dot green"></span>
+                    <span class="terminal-title">allan@portfolio</span>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="prompt">$</span> cat skills.json</p>
+                    <pre>{
+  "languages": ["Python", "Java", "C", "Go", "SQL"],
+  "frameworks": ["FastAPI", "React", "Node.js"],
+  "databases": ["PostgreSQL", "SQLite"],
+  "tools": ["Docker", "Git", "AWS"],
+  "interests": ["systems programming", "databases"]
+}</pre>
+                    <p><span class="prompt">$</span> <span class="cursor-blink">_</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title"><span class="section-number">01.</span> About</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a software engineer based in <strong>Canada</strong>, with a B.Sc. in Computer Science 
+                        from the <strong>University of British Columbia</strong> (GPA: 87.7).
+                    </p>
+                    <p>
+                        I've been recognized with the <em>Faculty of Science International Student Award</em> and the 
+                        <em>Deputy Vice-Chancellor Scholarship</em> for academic excellence.
+                    </p>
+                    <p>
+                        When I'm not writing code, you'll find me playing chess, soccer, or diving deep into 
+                        how systems work under the hood.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <div class="image-frame">
+                        <div class="ascii-art">
+┌─────────────────────┐
+│                     │
+│    ╭───────────╮    │
+│    │  ◠    ◠  │    │
+│    │     △     │    │
+│    │   ╰───╯   │    │
+│    ╰───────────╯    │
+│                     │
+│   Backend Engineer  │
+│   Systems Thinker   │
+│                     │
+└─────────────────────┘
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2 class="section-title"><span class="section-number">02.</span> Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Contract Software Engineer</h3>
+                            <span class="timeline-date">Nov 2025 — Present</span>
+                        </div>
+                        <p class="timeline-company">
+                            <a href="https://unityshare-frontend.vercel.app" target="_blank" class="company-link">UnityHomes / UnityShare ERP</a> 
+                            <span class="location">• Remote</span>
+                        </p>
+                        <ul class="timeline-details">
+                            <li>Building full-stack timeshare ERP with FastAPI + PostgreSQL backend, React/Vite frontend</li>
+                            <li>Implemented JWT auth, role-based dashboards, and event-sourced immutable points ledger</li>
+                            <li>Developed booking, payments, document management modules</li>
+                            <li>Deployed on Render + Vercel with Docker containerization</li>
+                        </ul>
+                        <a href="https://unityshare-frontend.vercel.app" class="timeline-link" target="_blank">View Live Site →</a>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Network Engineering Co-op</h3>
+                            <span class="timeline-date">Sept 2023 — Sept 2024</span>
+                        </div>
+                        <p class="timeline-company">Acronym Solutions <span class="location">• Toronto, ON</span></p>
+                        <ul class="timeline-details">
+                            <li>Worked with UNIX/Linux CLI to validate network configurations and improve data accuracy</li>
+                            <li>Produced technical documentation and updated Visio diagrams for engineering projects</li>
+                            <li>Supported ServiceNow backlog cleanup, improving turnaround time for internal requests</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Teaching Assistant</h3>
+                            <span class="timeline-date">Sept 2021 — Apr 2022</span>
+                        </div>
+                        <p class="timeline-company">University of British Columbia <span class="location">• Kelowna, BC</span></p>
+                        <ul class="timeline-details">
+                            <li>Assisted students with R and Java lab assignments, providing code reviews and debugging support</li>
+                            <li>Explained technical concepts during lab sessions, enhancing student understanding</li>
+                            <li>Graded assignments and provided feedback to improve coding and data analysis skills</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title"><span class="section-number">03.</span> Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/AllanCheboiwo/quickapps.git" target="_blank" aria-label="GitHub">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                            </a>
+                            <a href="https://www.quickapps.online" target="_blank" aria-label="Live Site">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">AI-Powered Resume Builder</h3>
+                    <p class="project-description">
+                        Full-stack resume generation platform with REST APIs for templates, user data, PDF/LaTeX generation, 
+                        and session handling. Containerized with Docker and deployed on Hetzner with Nginx.
+                    </p>
+                    <ul class="project-tech">
+                        <li>FastAPI</li>
+                        <li>React</li>
+                        <li>PostgreSQL</li>
+                        <li>Docker</li>
+                        <li>Nginx</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/COSC-499-W2024/capstone-project-group-11-002.git" target="_blank" aria-label="GitHub">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Insurance Policy Checker</h3>
+                    <p class="project-description">
+                        NLP-driven system to automate insurance policy comparison and reduce processing time. 
+                        Features a responsive React frontend with FastAPI + PostgreSQL backend.
+                    </p>
+                    <ul class="project-tech">
+                        <li>NLP</li>
+                        <li>FastAPI</li>
+                        <li>React</li>
+                        <li>PostgreSQL</li>
+                        <li>Docker</li>
+                    </ul>
+                </article>
+
+                <article class="project-card featured">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/AllanCheboiwo/codecrafters-sqlite-c.git" target="_blank" aria-label="GitHub">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">SQLite Implementation</h3>
+                    <p class="project-description">
+                        Core SQLite internals in C, including paging, B-tree structures, and caching layers. 
+                        Built fundamental query execution logic exploring SQLite's file format. Systems programming 
+                        with memory management and file I/O.
+                    </p>
+                    <ul class="project-tech">
+                        <li>C</li>
+                        <li>B-trees</li>
+                        <li>Paging</li>
+                        <li>File I/O</li>
+                        <li>Systems</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="section">
+            <h2 class="section-title"><span class="section-number">04.</span> Blog</h2>
+            <p class="blog-intro">
+                Thoughts on backend systems, databases, and the things I'm learning along the way.
+            </p>
+            <div class="blog-grid">
+                <!-- Blog post template - duplicate and modify for each article -->
+                <article class="blog-card">
+                    <div class="blog-meta">
+                        <span class="blog-date">Coming Soon</span>
+                        <span class="blog-tag">Systems</span>
+                    </div>
+                    <h3 class="blog-title">First Post Coming Soon</h3>
+                    <p class="blog-excerpt">
+                        I'll be writing about backend development, database internals, and lessons learned 
+                        from building production systems. Stay tuned!
+                    </p>
+                    <a href="#" class="blog-link disabled">Read on Substack →</a>
+                </article>
+
+                <!-- Example of what a real post would look like (uncomment and modify when you publish)
+                <article class="blog-card">
+                    <div class="blog-meta">
+                        <span class="blog-date">Dec 2025</span>
+                        <span class="blog-tag">Databases</span>
+                    </div>
+                    <h3 class="blog-title">How I Implemented SQLite from Scratch</h3>
+                    <p class="blog-excerpt">
+                        A deep dive into B-trees, paging, and the file format that makes SQLite tick...
+                    </p>
+                    <a href="https://yourusername.substack.com/p/your-post-slug" target="_blank" class="blog-link">Read on Substack →</a>
+                </article>
+                -->
+            </div>
+            <div class="blog-cta">
+                <p>Subscribe to get notified when I publish new articles</p>
+                <a href="https://substack.com" target="_blank" class="btn btn-secondary">Follow on Substack</a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title"><span class="section-number">05.</span> Contact</h2>
+            <div class="contact-content">
+                <p class="contact-text">
+                    I'm currently open to new opportunities and always excited to discuss 
+                    backend systems, databases, or anything low-level. Let's connect!
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:kiplongeiallan@gmail.com" class="contact-link">
+                        <span class="contact-label">email</span>
+                        <span class="contact-value">kiplongeiallan@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/allan-cheboiwo" target="_blank" class="contact-link">
+                        <span class="contact-label">linkedin</span>
+                        <span class="contact-value">/in/allan-cheboiwo</span>
+                    </a>
+                    <a href="https://github.com/AllanCheboiwo" target="_blank" class="contact-link">
+                        <span class="contact-label">github</span>
+                        <span class="contact-value">@AllanCheboiwo</span>
+                    </a>
+                </div>
+                <a href="mailto:kiplongeiallan@gmail.com" class="btn btn-primary btn-large">Say Hello</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Built with care by Allan Cheboiwo</p>
+        <p class="footer-sub">Canada • 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
